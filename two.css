@@ -1,0 +1,29 @@
+ul
+{
+    
+    margin-top: 0;
+    width:90%;
+    border: 5px rgb(129, 129, 129) dotted;
+    background-color: rgb(186, 196, 206) ;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+li
+{
+    font-size: 1em;
+}
+.heading
+{
+    font-size: lighter;
+    font-size: 1.9em;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid #db6e6e;
+    text-align: center;
+    color: #4f4f4f;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+

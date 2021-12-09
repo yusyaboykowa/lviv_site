@@ -1,0 +1,87 @@
+#slides
+{   width:700px;
+    height: 700px;
+    margin-top: 150px;
+	margin-left: 50px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 90%;
+	height: 80%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+
+.controls{
+	display: none;
+}
+
+
+.slide{
+	font-size: 40px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+  
+  background-size: cover;
+}
+
+
+.controls{
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 20px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 10px 0px 0px 10px;
+  width: 70px;
+}
+
+.controls:hover,
+.controls:focus{
+  background: #eee;
+  color: #333;
+}
+
+.container{
+  position: relative;
+}
+
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
+}
+.slide:nth-of-type(1)
+{
+  background-image: url("https://lviv.travel/image/locations/c0/00/c0009a375c359a0827add6c9be450d7ca582caf1_1558436923.png?crop=1366%2C735%2C0%2C0");
+}
+
+.slide:nth-of-type(2){
+	
+  background-image: url('https://cdn.thecrazytourist.com/wp-content/uploads/2018/08/ccimage-shutterstock_342499724.jpg');
+}
+.slide:nth-of-type(3)
+{
+  background-image: url('https://bbqboy.net/wp-content/uploads/2018/09/Umbrellas-outside-Potocki-Palace-Lviv.jpg');
+}
